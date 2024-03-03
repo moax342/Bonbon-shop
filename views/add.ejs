@@ -1,0 +1,25 @@
+<%- include("partials/header"); -%>
+
+<body class="container body-contanir">
+  <div class="right">
+    <h1 class="page-title"> إضافة منتج</h1>
+  </div>
+  <div class="contact-center">
+<i class="fas fa-utensils"></i>
+  </div>
+  <div class="">
+    <form class="form-group " action="/upload" enctype="multipart/form-data" method="post">
+      <label> صورة العنصر</label>
+      <input class="form-control form-image btn " type="file" name="foodImage" accept="img" required>
+      <label>اسم العنصر</label>
+      <input class="form-control " type="text" name="foodTitle" placeholder="...... اي اسم" required>
+      <label> المبلغ</label>
+      <input class="form-control" type="text" name="foodPrice" placeholder="2000 SDG" required>
+      <label>الوصفة</label>
+      <textarea class="form-control" name="foodContent" rows="8" cols="80" placeholder="طريقة العمل او التحضير ان وجدت"></textarea>
+
+      <button class="btn-order  btn shadow-sm" type="submit" name="button">تحميل</button>
+    </form>
+  </div>
+</body>
+<%-include("partials/footer");-%>

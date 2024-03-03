@@ -1,0 +1,489 @@
+/* global styling */
+.background {
+  text-align: center;
+  background-color: #00807e;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+  font-family: 'Almarai', sans-serif;
+  color: #fff;
+}
+
+.first-page {
+  margin-top: 120px;
+  margin-bottom: -100px;
+  font-size: 10rem;
+}
+
+input[type="file"] {
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px dashed #3f3f44;
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
+
+.body-contanir {
+  margin-top: 100px;
+  font-family: 'Almarai', sans-serif;
+  background-image: url("https://www.transparenttextures.com/patterns/pixel-weave.png");
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  width: 40%;
+}
+
+.right {
+  text-align: right;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+  background-color: #00909e !important;
+  letter-spacing: 5px;
+}
+
+/* start the navbar styling elemints */
+.navbar-nav a:hover {
+  color: #000 !important;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  letter-spacing: normal;
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+}
+
+.shadow-sm {
+  color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.nav-item {
+  margin-top: 12px;
+  margin-left: 50px;
+  float: right;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: normal;
+}
+
+.nav-item a {
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-item a:hover {
+  color: #fcbf1e;
+}
+
+/* the end of the navbar styleing elmeints  */
+/* ************************************* */
+/* footer css and styleing elmeints */
+.footer {
+  position: relative;
+  bottom: 0;
+  min-width: 80%;
+  margin: auto 0px;
+  height: 60px;
+  padding: 15px 10px;
+}
+
+.copy-right {
+  display: inline;
+  float: right;
+  margin-top: -10px;
+  margin-right: 25px;
+}
+
+.contact-dev {
+  margin-left: 20px;
+}
+
+.footer a {
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.footer img {
+  max-width: 25px;
+}
+
+.footer img:hover {
+  color: #fff;
+}
+
+.Or {
+  text-align: center;
+  display: block;
+  border-radius: 50%;
+  border: 1px solid;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.Or p {
+  margin: 0 auto;
+}
+
+/* the end of the footer elemints  */
+hr {
+  border: 1px solid #40bad5;
+  width: 90%;
+}
+
+.page-title {
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 25px;
+  padding: 10px;
+  width: 25%;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 15px 12px 25px 10px;
+  background-color: #fcbf1e;
+}
+
+.order-label {
+  margin-right: 25px;
+}
+
+.form-group {
+  float: right;
+  width: 80%;
+}
+
+.form-control {
+  margin-top: 30px;
+  margin-right: 30px;
+  border: 1px dashed #00909e;
+}
+
+.form-size {
+  width: 40%;
+  margin: 40px 30px 10px 60%;
+}
+
+form label {
+  float: right;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #393e46;
+  clear: right;
+  display: block;
+}
+
+/*button styling css*/
+.btn-size {
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 200px;
+  height: 50px;
+}
+
+.btn-order {
+  width: 25%;
+  background-color: #32e0c4;
+  margin-top: 10px;
+  float: right;
+  margin-bottom: 50px;
+}
+
+.btn-order:hover {
+  background-color: #fcbf1e;
+}
+
+.btn-outline {
+  border: 1px solid #fff;
+  color: #000;
+  font-size: 25px;
+}
+
+.btn-outline:hover {
+  border: 1px solid #000;
+  color: #fff;
+  background-color: #07031a;
+  font-size: 25px;
+}
+
+.btn-forder {
+  background-color: #fcbf1e;
+  color: #fff;
+  font-size: 25px;
+}
+
+.btn-forder:hover {
+  background-color: #ff9234;
+}
+
+.fa-facebook-f {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.fa-twitter {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.fa-linkedin-in {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.fa-whatsapp {
+  font-size: 1000%;
+  color: #007944;
+}
+
+.fa-facebook {
+  font-size: 960%;
+  margin-left: 20px;
+}
+.fa-whatsapp:hover {
+  color: #71a95a;
+}
+
+.fa-utensils {
+  font-size: 960%;
+  color: #35495e;
+}
+.logoutIcon{
+  width: 30px;
+  margin-top: -100px;
+
+}
+
+.contact-center {
+  text-align: center;
+}
+
+.icons {
+  width: 20%;
+  margin: 0 50% 0 40%;
+}
+
+.card-img-top {
+  border: 2px solid #dddddd;
+  background-color: #dddddd;
+  padding: 10px;
+  border-radius: 20px;
+  width: 80%;
+}
+
+.card {
+  border: 2px solid #dddddd;
+  padding: 10px;
+  height: 40%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #dddddd;
+  box-shadow: 0.5px 0.8px 0.8px 0.5px #eeeeee;
+}
+
+.card:hover {
+  background-color: #127681;
+  color: #fff;
+}
+
+.row {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.card-text {
+  font-size: 20px;
+  font-weight: 800;
+}
+.card-content{
+  font-size: 15px;
+}
+
+.mb-3 {
+  font-family: 'Sacramento', cursive;
+}
+
+.mt-5 {
+  margin-top: 20px;
+  color: #fff !important;
+}
+.h3{
+  margin-top: 50%;
+}
+
+.form-signin {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.form-image {
+  height: 150px;
+  width: 150px;
+  float: right;
+  display: block;
+  margin-right: -110px;
+}
+
+.log-contanir {
+  margin-top: 20%;
+  float: left;
+  padding: 25px 10px;
+  opacity: 50%;
+  border-radius: 15px;
+  background-color: #dddddd;
+}
+
+.con-elmeints {
+  display: block;
+  margin-top: auto;
+  margin-bottom: 15px;
+  margin-right: 5px;
+}
+
+/*End of button styling css*/
+/* and (min-width: 600px), (min-width: 1100px) */
+/*media query*/
+@media screen and (max-width: 400px) and (min-width: 250px) {
+  .page-title {
+    margin-top: 10px;
+  }
+
+  .form-signin {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width:780px) and (min-width: 401px) {
+  .page-title {
+    margin-top: 10px;
+  }
+
+  .form-signin {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .row {
+    width: 90%;
+  }
+}
+
+/*the placeholder position*/
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  text-align: right;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: right;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  text-align: right;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: right;
+}
+
+@media screen and (min-width:360px) and (max-width:380px) {
+
+  .card-img-top {
+    padding: 10px;
+    border-radius: 25px;
+    width: 70%;
+  }
+
+  .card {
+    margin-left: 20%;
+    height: 20%;
+    width: 700%;
+    margin-top: 10px;
+    border-radius: 25px;
+  }
+  .card-text {
+    font-size: 20px;
+  }
+
+  .first-page{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  .fa-whatsapp {
+    font-size: 700%;
+    color: #007944;
+  }
+
+  .fa-facebook {
+    font-size: 660%;
+    margin-left: 20px;
+  }
+
+}
+
+@media screen and (min-width:381px) and (max-width:680px) {
+
+  .card-img-top {
+    padding: 10px;
+    border-radius: 25px;
+    width: 50%;
+  }
+  .first-page{
+    font-size: 5rem;
+    margin-bottom: 10px;
+  }
+
+  .card {
+    margin-left: 20%;
+    height: 30%;
+    width: 70%;
+    margin-top: 10px;
+    border-radius: 25px;
+  }
+  .card-text {
+    font-size: 20px;
+  }
+  .fa-whatsapp {
+    font-size: 800%;
+    color: #007944;
+  }
+
+  .fa-facebook {
+    font-size: 760%;
+    margin-left: 20px;
+  }
+}

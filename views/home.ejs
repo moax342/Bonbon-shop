@@ -1,0 +1,40 @@
+<%- include("partials/header"); -%>
+
+<body class="container body-contanir">
+  <div class="right">
+    <h1 class="page-title">منتجاتي</h1>
+  </div>
+  <div class="log-contanir">
+    <a class="con-elmeints" target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
+    <a class="con-elmeints" target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+    <a class="con-elmeints" target="_blank" href="#"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+  <% if(isLogedIn){%>
+    <div >
+      <a href="/logout"><img class="logoutIcon" src="https://image.flaticon.com/icons/svg/1828/1828490.svg" alt="logout"></a>
+    </div>
+  <%}%>
+  <div class="row">
+    <%foodItems.forEach(item=>{%>
+      <div class="col-lg-3 col-md-4">
+        <div class="card">
+          <img src="data:image/png;base64,<%=item.image.toString('base64')%>" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><%=item.title%></h5>
+            <p class="card-text"><%=item.price%></p>
+            <% if(item.content!= null){%>
+            <p class="card-content"><%=item.content%></p>
+            <%}%>
+            <% if(isLogedIn){%>
+              <form action="/Delete" method="post">
+                <input type="hidden" name="deleteOne" value="<%=item.title%>"></input>
+                <button type="submit" class="btn color" name="button">Delete</button>
+              </form>
+            <%}%>
+          </div>
+        </div>
+      </div>
+    <%})%>
+  </div>
+</body>
+<%-include("partials/footer");-%>

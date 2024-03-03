@@ -1,0 +1,35 @@
+<%- include("partials/header"); -%>
+
+<body class="container body-contanir">
+  <div class="right">
+    <h1 class="page-title">اطلب</h1>
+  </div>
+  <div>
+    <img class="icons" src="https://image.flaticon.com/icons/svg/3027/3027212.svg" alt="">
+  </div>
+  <div class="form-group">
+    <form class="" action="/orDone" method="post">
+      <label>الطلب</label>
+      <input class="form-control" type="text" name="orderTitle" placeholder="الطلب" required>
+      <label>رقم الهاتف</label>
+      <input class="form-control form-size" type="phone" name="orederPhone" placeholder="+2499**********" required>
+      <label>المكان المراد التوصيل له </label>
+      <textarea class="form-control " name="orderMassage" rows="4" cols="80" required  placeholder="المكان المراد ايصال الطلب له"></textarea>
+      <label>الكمية</label>
+      <input class="form-control form-size" type="number" name="orderQuan" min="1" required>
+      <button class="btn-order  btn shadow-sm " type="submit" name="button">طلب</button>
+    </form>
+  </div>
+  <div class="Or">
+    <p>Or</p>
+  </div>
+  <div class="contact-center">
+    <a href="tel:+249993645805">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="/">
+      <i class="fab fa-facebook"></i>
+    </a>
+  </div>
+</body>
+<%-include("partials/footer");-%>
