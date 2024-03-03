@@ -8,11 +8,9 @@ Maria's website serves as a digital portfolio and personal showcase, allowing vi
 
 ## Features
 
-- **Portfolio Showcase**: Maria's website features a some section where she can display her projects, artwork, or any other creative endeavors she wishes to share with the world.
+- **Main Page**: The main pages shows the food and goods that was made by Marias.
 
-- **About Me Page**: Visitors can learn more about Maria's background, interests, and experiences through the "About Me" page, which provides a glimpse into her personality and journey.
-
-- **Contact Form**: The website includes a contact form that enables visitors to reach out to Maria directly, whether it's to inquire about her work, provide feedback, or simply say hello.
+- **Order Form**: The website includes a Order form that enables visitors to oreder from Maria directly.
 
 - **Responsive Design**: The website is designed to be responsive and mobile-friendly, ensuring a seamless browsing experience across devices of all sizes.
 
